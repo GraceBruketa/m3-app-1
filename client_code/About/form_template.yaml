@@ -1,0 +1,24 @@
+components:
+- layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+- event_bindings: {click: main_button_click}
+  layout_properties: {slot: title}
+  name: main_button
+  properties:
+    bold: true
+    font: Yeseva One
+    font_size: 22
+    spacing:
+      padding: [10, null, null, null]
+    text: DescriptSearch
+  type: Button
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true

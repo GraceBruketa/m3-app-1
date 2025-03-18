@@ -1,6 +1,6 @@
 from ._anvil_designer import AboutTemplate
 from anvil import *
-from ..Home import Home
+# from ..Home import Home
 
 
 class About(AboutTemplate):

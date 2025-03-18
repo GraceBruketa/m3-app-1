@@ -1,6 +1,6 @@
 from ._anvil_designer import ShopTemplate
 from anvil import *
-from ..Home import Home
+# from ..Home import Home
 
 
 class Shop(ShopTemplate):
@@ -12,5 +12,6 @@ class Shop(ShopTemplate):
 
   def main_button_click(self, **event_args):
     """This method is called when the button is clicked"""
+    from ..Home import Home
     home = Home()
     open_form(home)

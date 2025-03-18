@@ -1,6 +1,6 @@
 from ._anvil_designer import CartTemplate
 from anvil import *
-from ..Home import Home
+# from ..Home import Home
 
 
 class Cart(CartTemplate):
